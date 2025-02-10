@@ -57,7 +57,7 @@ team_members = [
 ]
 
 for member in team_members:
-    st.sidebar.image(f"../app/images/{member['photo']}", width=400)
+    st.sidebar.image(f"images/{member['photo']}", width=400)
     st.sidebar.write(f"**{member['nom']}** – {member['fonction']}")
 
 # 📌 Ajout du Copyright en bas du Sidebar
