@@ -6,9 +6,9 @@ import os
 from tensorflow.keras.models import load_model
 
 #  Définition des chemins corrects
-MODEL_PATH = "../app/model.keras"      # Lien du model
-SCALER_PATH = "../app/scalar.pkl"      # Lien du scaler
-FEATURES_PATH = "../app/features.pkl"  # Lien de la Liste des colonnes attendues
+MODEL_PATH = "model.keras"      # Lien du model
+SCALER_PATH = "scalar.pkl"      # Lien du scaler
+FEATURES_PATH = "features.pkl"  # Lien de la Liste des colonnes attendues
 
 # 🛠️ Vérification et chargement des fichiers nécessaires
 if not os.path.exists(MODEL_PATH):
